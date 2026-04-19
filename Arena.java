@@ -10,7 +10,7 @@ public class Arena {
         this.name = name;
         this.count = count;
         canBeEntered = true;
-        arenaInitializer = new ArenaInitializer(this);  // now, arena knows its arena starter
+        arenaInitializer = new ArenaInitializer(this);  // now, arena knows its arena initializer
     }
     public void Enter () {
         if (!canBeEntered){
